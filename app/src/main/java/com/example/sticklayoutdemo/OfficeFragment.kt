@@ -52,7 +52,7 @@ class OfficeFragment : Fragment() {
 
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MyViewHolder {
             val itemView = LayoutInflater.from(context).inflate(R.layout.item_fragment_office, parent, false)
-            Log.d("dbs", "===onCreateViewHolder ")
+//            Log.d("dbs", "===onCreateViewHolder ")
             return MyViewHolder(itemView)
         }
 
@@ -62,7 +62,7 @@ class OfficeFragment : Fragment() {
 
         override fun onBindViewHolder(holder: MyViewHolder, position: Int) {
             holder.tvTitle.text = list[position]
-            Log.d("dbs", "===onBindViewHolder position:${position} ")
+//            Log.d("dbs", "===onBindViewHolder position:${position} ")
         }
 
     }

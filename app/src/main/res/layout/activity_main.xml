@@ -9,7 +9,7 @@
         android:id="@+id/tv_title"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:text="title"
+        android:text="圈子"
         android:gravity="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,6 +25,7 @@
         tools:context=".MainActivity">
 
         <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/appbar_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:theme="@style/Theme.StickLayoutDemo.AppBarOverlay">
@@ -42,6 +43,7 @@
                 android:background="@android:color/holo_blue_bright"
                 android:gravity="center"
                 android:text="base indo"
+                android:visibility="visible"
                 app:layout_scrollFlags="scroll" />
 
         </com.google.android.material.appbar.AppBarLayout>
